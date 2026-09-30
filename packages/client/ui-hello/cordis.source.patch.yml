@@ -1,0 +1,9 @@
+# Source overlay for the hello-world demo page. Boot it with:
+#   pnpm dsh web --patch ./packages/client/ui-hello/cordis.source.patch.yml
+# The relative entry is anchored to this file and runs through the CLI's tsx
+# loader without a profile install; the browser half is the package's
+# exports["./client"] bundle, discovered through the dsh.client declaration.
+
+- insert:
+    - id: ui-hello
+      name: './src/index.ts'
