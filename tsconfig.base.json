@@ -214,6 +214,7 @@
       "@deepseek-ai/dsh-client-ui-slots": ["./packages/client/ui-slots/src"],
       "@deepseek-ai/dsh-client-ui-hello": ["./packages/client/ui-hello/src"],
       "@deepseek-ai/dsh-client-ui-hello/client": ["./packages/client/ui-hello/src/client"],
+      "@deepseek-ai/dsh-client-ui-hello/types": ["./packages/client/ui-hello/src/types.ts"],
       "@deepseek-ai/dsh-client-ui-attachment": ["./packages/client/ui-attachment/src"],
       "@deepseek-ai/dsh-client-ui-primitives": ["./packages/client/ui-primitives/src"],
       "@deepseek-ai/dsh-client-ui-dockkit": ["./packages/client/ui-dockkit/src"],
